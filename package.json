@@ -2,9 +2,12 @@
   "name": "weather",
   "version": "0.1.0",
   "private": true,
+  "author": "Cirych",
+  "license": "MIT",
   "devDependencies": {
     "@kadira/storybook": "^2.21.0",
     "flow-bin": "^0.39.0",
+    "gh-pages": "^0.12.0",
     "react-scripts": "0.9.0",
     "storybook-addon-material-ui": "^0.7.7"
   },
@@ -30,9 +33,12 @@
     "eject": "react-scripts eject",
     "flow": "flow",
     "storybook": "start-storybook -p 9009 -s public",
-    "build-storybook": "build-storybook -s public"
+    "build-storybook": "build-storybook -s public",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
-  }
+  },
+  "homepage": "https://cirych.github.io/WeatherApp"
 }
