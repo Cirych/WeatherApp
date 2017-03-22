@@ -29,8 +29,8 @@ store.subscribe(throttle(() =>
 	})
 ), 1000);
 
-//import { getCurrentLocation } from './actions';
-//store.dispatch(getCurrentLocation());
+import { getCurrentLocation } from './actions';
+store.dispatch(getCurrentLocation());
 
 import { mediaQueryTracker } from 'redux-mediaquery';
 store.dispatch(mediaQueryTracker({

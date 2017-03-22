@@ -12,11 +12,9 @@
     "storybook-addon-material-ui": "^0.7.7"
   },
   "dependencies": {
-    "bootstrap": "^3.3.7",
     "lodash": "^4.17.4",
     "material-ui": "^0.17.0",
     "react": "^15.4.2",
-    "react-bootstrap": "^0.30.7",
     "react-dom": "^15.4.2",
     "react-redux": "^5.0.2",
     "react-swipeable-views": "^0.10.8",
@@ -40,5 +38,5 @@
   "eslintConfig": {
     "extends": "react-app"
   },
-  "homepage": "https://cirych.github.io/WeatherApp"
+  "homepage": "http://weatherapp.ki-tec.ru"
 }
